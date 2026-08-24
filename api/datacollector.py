@@ -9,12 +9,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI")
-API_BASE_URL = "https://api.openf1.org/v1"
+API_BASE_URL = os.getenv("API_BASE_URL")
+
 
 # Parâmetros configuráveis
-SESSION_KEY = 9159   # Corrida GP Itália 2023 - Monza
-MEETING_KEY = 1219
-YEAR = 2023
+SESSION_KEY = os.getenv("SESSION_KEY")
+MEETING_KEY = os.getenv("MEETING_KEY")
+YEAR = os.getenv("YEAR")
 
 #SESSION_KEY = 9476   # Corrida GP Jeddah 2024 - Jeddah
 #MEETING_KEY = 1230
