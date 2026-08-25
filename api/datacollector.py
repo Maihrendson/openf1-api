@@ -17,10 +17,6 @@ SESSION_KEY = os.getenv("SESSION_KEY")
 MEETING_KEY = os.getenv("MEETING_KEY")
 YEAR = os.getenv("YEAR")
 
-#SESSION_KEY = 9476   # Corrida GP Jeddah 2024 - Jeddah
-#MEETING_KEY = 1230
-#YEAR = 2024
-
 
 # ========================================================
 # 2. Função de conexão ao MongoDB
